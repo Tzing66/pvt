@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
-#change the directory before using the code
+#change the directory before using the code. dataset can be found here - https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset
 data = pd.read_csv("C:/Users/tanma/Downloads/data_pass/data.csv", on_bad_lines='skip')
 print(data.head())
 
